@@ -9,7 +9,7 @@ import sys
 print("Bienvenue dans cette petite calculatrice sous Python pour entier.\n")
 
 
-def run_calc():
+def run_calculator():
     op = input("Choisissez une opération entre +, -, x , / et %      : \n")
     term_1 = input("Saisissez votre premier entier \n")
     term_2 = input("Saisissez votre second entier \n")
@@ -22,7 +22,7 @@ def run_calc():
         if keep_going == "Oui":
             sys.exit(0)
     print("Nous allons recommencer le programme\n")
-    run_calc()
+    run_calculator()
 
 
-run_calc()
+run_calculator()
