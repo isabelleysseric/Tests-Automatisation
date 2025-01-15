@@ -48,3 +48,4 @@ def ope(operateur,arg1,arg2):
         return div(arg1,arg2)
     else:
         print("L'opérateur {} n'est pas reconnu.".format(operateur))
+
