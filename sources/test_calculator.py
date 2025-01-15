@@ -41,13 +41,13 @@ class Test(unittest.TestCase):
         """
         Le résultat de 8 modulo 2 est 0
         """
-        self.assertIsNone(calculator.modulo("8", "2"), 0)
+        self.assertEqual(calculator.modulo(8, 2), 0)
 
     def test_modulo_str(self):
         """
         Le résultat de 8 modulo da ne doit rien retourner
         """
-        self.assertEqual(calculator.modulo("144", "12"), 132)
+        self.assertIsNone(calculator.modulo(8, "da"))
 
     def test_sous_float(self):
         """
